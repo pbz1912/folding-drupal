@@ -1,0 +1,77 @@
+/**
+ * This is the styles for the 'Folding Drupal' presentation.
+ *
+ * Don't reuse them for other presentations.
+ */
+
+body {
+  font-size: 1em;
+  line-height: 1.2em;
+
+  font-family: sans-serif;
+
+}
+
+.fallback-message {
+  display: none;
+}
+
+.impress-not-supported {
+  .fallback-message {
+    display: block;
+    background: lighten(#f00,30%);
+    border-radius: .6em;
+    padding: 1px .6em;
+  }
+}
+
+#start {
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+}
+
+#start h1 {
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#start p {
+  font-size: 60px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.slide {
+  background: #fff;
+}
+
+img {
+  @media screen and (max-width: 480px) {
+    max-width: 80%;
+  }
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+figure {
+  width: 800px;
+  text-align: center;
+}
+
+footer {
+  text-align: right;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer li:after {
+  content: ' \2013';
+  font-weight: bold;
+}

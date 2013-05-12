@@ -1,0 +1,85 @@
+/**
+ * This is the styles for the 'Folding Drupal' presentation.
+ *
+ * Don't reuse them for other presentations.
+ */
+/* line 7, ../scss/folding-drupal.scss */
+body {
+  font-size: 1em;
+  line-height: 1.2em;
+  font-family: sans-serif;
+}
+
+/* line 15, ../scss/folding-drupal.scss */
+.fallback-message {
+  display: none;
+}
+
+/* line 20, ../scss/folding-drupal.scss */
+.impress-not-supported .fallback-message {
+  display: block;
+  background: #ff9999;
+  border-radius: .6em;
+  padding: 1px .6em;
+}
+
+/* line 28, ../scss/folding-drupal.scss */
+#start {
+  width: 800px;
+  height: 400px;
+  padding: 20px;
+}
+
+/* line 34, ../scss/folding-drupal.scss */
+#start h1 {
+  font-size: 80px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+/* line 40, ../scss/folding-drupal.scss */
+#start p {
+  font-size: 60px;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+/* line 46, ../scss/folding-drupal.scss */
+.slide {
+  background: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 50, ../scss/folding-drupal.scss */
+  img {
+    max-width: 80%;
+  }
+}
+
+/* line 56, ../scss/folding-drupal.scss */
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+/* line 61, ../scss/folding-drupal.scss */
+figure {
+  width: 800px;
+  text-align: center;
+}
+
+/* line 66, ../scss/folding-drupal.scss */
+footer {
+  text-align: right;
+}
+
+/* line 70, ../scss/folding-drupal.scss */
+footer li {
+  list-style: none;
+}
+
+/* line 74, ../scss/folding-drupal.scss */
+footer li:after {
+  content: ' \2013';
+  font-weight: bold;
+}
